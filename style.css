@@ -1,6 +1,8 @@
 body{
     margin-bottom: 300%;
 }
+
+/* Shopping kurv CSS som fungere som en prikfunktion*/
 .shopkurv{
     background-color: bisque;
     padding: 10px;
