@@ -7,15 +7,18 @@ body{
 
 .nav-bar{
     background-color: brown;
+    
 }
 
 .nav-bar a{
     color: blanchedalmond;
+    text-decoration: none;
+    font-size: 25px;
 
 }
 
 .nav-bar a:hover{
-    text-decoration: underline black;
+    text-decoration: underline blanchedalmond;
 }
 
 /* Shopping kurv CSS som fungere som en prikfunktion*/
