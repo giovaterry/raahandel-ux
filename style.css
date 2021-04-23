@@ -1,4 +1,21 @@
+
+
 body{
+}
+
+/*Navigation START*/
+
+.nav-bar{
+    background-color: brown;
+}
+
+.nav-bar a{
+    color: blanchedalmond;
+
+}
+
+.nav-bar a:hover{
+    text-decoration: underline black;
 }
 
 /* Shopping kurv CSS som fungere som en prikfunktion*/
