@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
 }
+
 
 body{
     background-color: #EFE9DB;
@@ -43,9 +45,10 @@ body{
     position: fixed;
 }
 
-* {
-    box-sizing: border-box;
-  }
+/*søgefelt*/ 
+form{
+  margin:auto;max-width:600px
+}
   
   form.example input[type=text] {
     padding: 10px;
@@ -60,16 +63,16 @@ body{
     float: left;
     width: 20%;
     padding: 10px;
-    background: #2196F3;
-    color: white;
+    background: #EFE9DB;
+    color: grey;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none;
+    border-left: 1px solid grey;
     cursor: pointer;
   }
   
   form.example button:hover {
-    background: #0b7dda;
+    background: bisque;
   }
   
   form.example::after {
@@ -98,7 +101,8 @@ footer{
     bottom: 0;
     width: 100%;
     
+}
 
-    
-    
+footer p{
+    color: whitesmoke;
 }
