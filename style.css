@@ -1,28 +1,36 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(232, 238, 178);
+    background-color: #EFE9DB;
 }
 
 /*Navigation START*/
 
 .nav-bar{
-    background-color: brown;
-    
+    background-color:  #EFE9DB;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav-bar a{
-    color: blanchedalmond;
+    color: #3B3A38;
     text-decoration: none;
     font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+   
+    
 
 }
 
 .nav-bar a:hover{
-    text-decoration: underline blanchedalmond;
+    text-decoration: underline #3B3A38;
 }
 
 /* Shopping kurv CSS som fungere som en prikfunktion*/
