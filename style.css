@@ -26,14 +26,54 @@ body{
     font-size: 25px;
     letter-spacing: 1px;
     margin-left: 25px;
-   
-    
 
 }
 
 .nav-bar a:hover{
     text-decoration: underline #3B3A38;
 }
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ddd;
+  }
+  
+  .dropdown {
+    position: relative;
+    float: right;
+    padding-right: 23%;
+    z-index: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {
+      display: block;
+    }
 
 /* Shopping kurv CSS som fungere som en prikfunktion*/
 .shopkurv{
@@ -45,9 +85,11 @@ body{
     position: fixed;
 }
 
-/*søgefelt*/ 
+/*søgefelt fra w3.school START*/ 
 form{
-  margin:auto;max-width:600px
+  margin:auto;max-width:600px;
+  padding-top: 20px;
+  
 }
   
   form.example input[type=text] {
@@ -85,13 +127,15 @@ form{
 button{
     cursor: pointer;
 }
-/* Bokse af madvare*/
+/* Bokse af vare START*/
 .div-box{
     background-color: burlywood;
     display: inline-block;
     padding: 20px;
     margin-top: 40px;
 }
+
+/*footer*/
 
 footer{
     background-color: rgb(27, 27, 39);
